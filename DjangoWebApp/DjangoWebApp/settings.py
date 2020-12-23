@@ -34,11 +34,23 @@ INSTALLED_APPS = [
     'MainApp',
     'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.sites',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'social_django',
+
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.vk',
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.google',
 ]
+
+#ACCOUNT_DEFAULT_HTTP_PROTOCOL = "https"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -68,6 +80,8 @@ TEMPLATES = [
     },
 ]
 
+
+
 WSGI_APPLICATION = 'DjangoWebApp.wsgi.application'
 
 
@@ -80,6 +94,11 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
 
 
 # Password validation
@@ -123,3 +142,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS =[
     BASE_DIR / "static",
 ]
+
+SITE_ID = 1
+
+LOGIN_REDIRECT_URL = '/memories'

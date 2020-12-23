@@ -1,4 +1,6 @@
 {% extends 'MainApp/layout.html' %}
+{% load socialaccount %}
+{% providers_media_js %}
 
 {% block title %}Главная страница{% endblock %}
 
@@ -8,12 +10,14 @@
             <div class="col-xs-12 col-sm-12 col-md-9 cold-lg-9 col-xl-10">
                 <p class="lead">Данное веб-приложение предназначено для хранения своих воспоминаний и впечатлений
                    о посещенных местах. Для работы с приложением, пожалуйста, аутентифицируйтесь с помощью
-                   Facebook.
+                   Facebook или ВКонтакте.
                 </p>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-3 cold-lg-3 col-xl-2">
-                <a href="#"><button class="btn btn-success btn-lg" type="button">Войти с помощью Facebook</button></a>
+                <a type="button" href="{% provider_login_url 'vk' method='js_sdk' %}" class="btn btn-success btn-lg">
+                    Войти с помощью Вконтакте
+                </a>
             </div>
         </div>
     </div>

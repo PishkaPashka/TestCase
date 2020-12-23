@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bda23ee-4934-4e8b-922e-649b5856326c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/static/MainApp/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/templates/MainApp/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/templates/MainApp/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TestCaseProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestCaseProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoWebApp/DjangoWebApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/DjangoWebApp/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoWebApp/DjangoWebApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/DjangoWebApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/MainApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/MainApp/static/MainApp/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/static/MainApp/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/MainApp/templates/MainApp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/templates/MainApp/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/MainApp/templates/MainApp/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/templates/MainApp/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/MainApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/MainApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/MainApp/templates/MainApp/memories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/accounts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/accounts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/accounts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/accounts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/accounts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/accounts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoWebApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoWebApp/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,6 +56,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="67" width="1089" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608715105981">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608715105981" />
+    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608721445508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1608721445508" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1608736189197">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608736189197" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1608704450264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
